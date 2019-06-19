@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="265.0" prefWidth="292.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nidhizare.Controller">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="welcomeLabel" layoutX="110.0" layoutY="29.0" text="Welcome">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="cBox" layoutX="43.0" layoutY="67.0" prefHeight="14.0" prefWidth="212.0" />
+            <TextField fx:id="userInputField" layoutX="43.0" layoutY="117.0" prefHeight="27.0" prefWidth="212.0" promptText="Enter Temperature" />
+            <Button fx:id="convertButton" layoutX="89.0" layoutY="167.0" mnemonicParsing="false" prefHeight="13.0" prefWidth="120.0" text="Convert" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
